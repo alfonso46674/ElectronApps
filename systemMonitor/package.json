@@ -13,7 +13,7 @@
   },
   "keywords": [],
   "author": {
-    "name": "BuildTools",
+    "name": "alfonso.ramirez",
     "email": "is713932@iteso.mx"
   },
   "license": "MIT",
@@ -45,7 +45,8 @@
     }
   },
   "dependencies": {
-    "electron-squirrel-startup": "^1.0.0"
+    "electron-squirrel-startup": "^1.0.0",
+    "os-utils": "0.0.14"
   },
   "devDependencies": {
     "@electron-forge/cli": "^6.0.0-beta.57",
