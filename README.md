@@ -3,11 +3,16 @@
 Small and simple applications made with ElectronJS.
 
 ## Getting started
-Run the following commands for each project
+Run the following commands for each project to run it
 ```
 npm install 
 npm run start
 ```
+Run the following command to build an installer in the dist/ folder
+```
+npm run build-installer
+```
+
 
 ## Applications
 
