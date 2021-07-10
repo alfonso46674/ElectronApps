@@ -2,12 +2,23 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>Hello World!</title>
+    <title>System monitor</title>
     <link rel="stylesheet" href="index.css">
     <script defer src='ipc.js'></script>
   </head>
   <body>
-    <h1>💖 Hello World!</h1>
-    <p>Welcome to your Electron application.</p>
+
+    <div>
+      <span>CPU (%)</span>
+      <span id='cpu'>-</span>
+    </div>
+    <div>
+      <span>Free memory (%)</span>
+      <span id='memFree'>-</span>
+    </div>
+    <div>
+      <span>Total memory (GB)</span>
+      <span id='memTotal'>-</span>
+    </div>
   </body>
 </html>
