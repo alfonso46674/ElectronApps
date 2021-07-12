@@ -21,6 +21,8 @@ const createWindow = () => {
     }
   });
 
+  mainWindow.setMenuBarVisibility(false)
+
   //load index.html or localhost depending if a development is enabled
   mainWindow.loadURL(
       isDev
