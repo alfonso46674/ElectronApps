@@ -25,3 +25,15 @@ Simple screen recorder app to record a tab or screen, and then save it wherever 
 Small system monitor app that shows CPU usage, free memory, and total memory available.
 
 ![systemMonitor](images/systemMonitor.JPG)
+
+### React calculator
+
+Simple calculator made with ReactJS and Electron. This project could be used as a simple template for React and Electron, but lacks a bundler such as webpack.
+
+Use the following command to create a development environment with React and Electron:
+```
+npm run dev
+```
+
+
+![ReactCalculator](images/ReactCalculator.JPG)
